@@ -1,20 +1,17 @@
 import { StyleSheet, Text, View,Button } from 'react-native'
 import React from 'react'
+import { StatusBar } from 'expo-status-bar'
+import { Link } from 'expo-router'
 import { Slot } from 'expo-router'
-import Profile from './Profile'
-import { Link, NavigationContainer } from '@react-navigation/native';
+
 const RootLayout = () => {
 
-  const handlepress = () => {
-   
-  }
   return (
-    <>
-    <Text>Header</Text>
-    <Slot />
-   <Button title='this is a button' onPress={handlepress}/>
-    <Text>Footer</Text>
-    </>
+   <View>
+    <Text>Akash</Text>
+    <StatusBar style='auto' />
+    <Link  href='/profile' style={{color : 'blue', flex:1 ,alignItems: 'center', justifyContent : 'center'}} >Go to Profile</Link>
+   </View>
   )
 }
 
