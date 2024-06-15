@@ -3,3 +3,7 @@ Create a New Expo Project: npx create-expo-app my-new-project
 Navigate to Your Project Directory: cd my-new-project
 
 Start the Development Server: npx expo start
+
+
+SplashScreen.preventAutoHideAsync();
+if(fontsLoaded) SplashScreen.hideAsync();
