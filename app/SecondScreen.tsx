@@ -2,22 +2,22 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
-const Profile = () => {
+
+const SecondScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Profile</Text>
-      <Link href='SecondScreen'  style={{color : 'blue'}}>SecondScreen</ Link>
+      <Text>SecondScreen</Text>
+      <Link href='ThirdScreen'  style={{color : 'blue'}}>ThirdScreen</ Link>
     </View>
   )
 }
 
-export default Profile
+export default SecondScreen
 
 const styles = StyleSheet.create({
-  container :{
+    container :{
     display : "flex",
     flex : 1,
     alignItems : "center",
     justifyContent : "center"
-}
-})
+}})
