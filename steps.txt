@@ -7,3 +7,11 @@ Start the Development Server: npx expo start
 
 SplashScreen.preventAutoHideAsync();
 if(fontsLoaded) SplashScreen.hideAsync();
+
+Real Experience: I've built and maintained real-world applications using Node.js, so I know how to make things work in practice, not just in theory.
+
+Problem Solver: When things break or get tricky, I'm good at figuring out what went wrong and fixing it quickly and effectively.
+
+Team Player: I work well with others, communicate clearly, and enjoy collaborating to get the job done.
+
+Passionate: I love coding and always stay updated with the latest tech trends, so I bring enthusiasm and up-to-date knowledge to the team.
